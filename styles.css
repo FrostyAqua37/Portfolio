@@ -43,6 +43,9 @@ li a:hover {
     color: black; 
 }
 
+a:is(:link, :active, :visited).active {
+    color: black;
+}
 
 
 
