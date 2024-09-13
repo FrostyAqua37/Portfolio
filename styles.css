@@ -45,6 +45,9 @@ li a:hover {
 
 a:is(:link, :active, :visited).active {
     color: black;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px 10px;
 }
 
 
